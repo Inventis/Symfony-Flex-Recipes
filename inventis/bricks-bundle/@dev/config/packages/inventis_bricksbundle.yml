@@ -1,0 +1,11 @@
+inventis_bricks:
+    supported_locales: ['nl_BE', 'fr_BE', 'en_GB']
+
+doctrine:
+    orm:
+        mappings:
+            InventisBricksBundle:
+                mapping: true
+                type: annotation
+                dir: 'Tests/Entity'
+                prefix: 'Inventis\Bundle\BricksBundle\Tests\Entity'
